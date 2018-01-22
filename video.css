@@ -1,0 +1,120 @@
+.navbar {
+         z-index:4;
+         font-size:15px;
+         background-color:#37474F;
+   }
+
+
+#playerContainer{
+		margin-left:110px;
+		margin-top:25px;
+}   
+		
+
+#player{
+	width:890px;
+}		
+
+#videoDetails{
+	height:150px;
+	margin-top:25px;
+	width:890px;
+	background-color:#faf4f2;
+	
+}
+
+#videoDetails{
+ font-style:italic;
+}
+.playlistCardContainer{
+	width:310px;
+	height:210px;
+}
+
+.playlistCard{
+	width:310px;
+	height:210px;
+	background-color:#fbf9f8;
+	
+}
+
+.playlistCard:hover{
+background-color:#eeeceb;
+
+}
+
+.playlistCard h4{
+  font-style:italic;
+  fomt-weight:200;
+}
+
+
+.playlistCard p{
+  font-style:italic;
+}
+.playlistCard img{
+		width:195px;
+		height:90px;
+		border: 3px solid #ddd;
+}
+.playlistCard img :hover{
+		 box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.video-thumbnail {
+    position: relative;
+}
+.video-thumbnail .glyphicon {
+    position: absolute;
+    top: 70%;
+    margin-top: -40px; /* half icon's height */
+    left: 40%;
+    margin-left: -40px; /* half icon's width */
+    z-index: 999;
+    color: pink;
+    font-size: 40px;
+    transition: all .25s;
+    opacity: .75;
+}
+.video-thumbnail:hover .glyphicon {
+    opacity: 1;
+	color: red;
+}
+
+.showMore{
+	width:290px;
+	margin-left:25px;
+	margin-top:10px;
+	background-color:green;
+	transition: 1s;
+	opacity: 0.2;
+}
+
+.showMore:hover{
+ color:white;
+ background-color:green;
+ opacity: 0.8;
+ 
+}
+
+.stick {
+    position:fixed;
+    top:0px;
+	z-index:4;
+	padding-left:250px;
+	background-color:white;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	/* background-color: #151515; */ /* for dark overlay on top of the image */
+	background: transparent;
+	opacity: 0;
+	transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
